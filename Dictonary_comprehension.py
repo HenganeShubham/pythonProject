@@ -1,3 +1,5 @@
+from functools import reduce
+
 '''a = {1: "one", 2: 'two'}
 print(a)
 a[3] = 'Three'
@@ -35,3 +37,6 @@ c = {10, 20}
 c.update((30, 40, 21, 50))
 print(c)
 
+list4 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+newlist = reduce((lambda x, y: x + y), list4)
+print(newlist)
