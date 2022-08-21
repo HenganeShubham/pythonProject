@@ -7,3 +7,5 @@ list1 = ["Fruits", ['Mango', 'Apple', 'Pineapple']]
 print(list1[1])
 del list1[1]
 print(list1)
+
+#This is my new line...
